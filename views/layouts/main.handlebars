@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src= "https://code.jquery.com/jquery.js"></script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link rel= "stylesheet" href="/assets/css/news_style.css" type="text/css" />
+            <script src="/assets/js/app.js"></script>
+
+            <title>Latest Health News Scraper</title>
+    </head>
+    <div class = "container">
+       <nav class="navbar navbar-dark bg-dark">
+            <form class="form-inline">
+                <button id = "homeBtn" class="btn btn btn-dark" type="button">Home</button>
+                <button id = "savedBtn" class="btn btn btn-dark" type="button">Saved Articles</button>
+                <button id = "scrapeBtn" class="btn btn btn-warning" type="button">Scrape New Articles</button>
+            </form>
+        </nav>
+	    <img id="cover" src="/assets/images/healthCare.jpg" class="img-fluid">
+    </div>
+	<div class = "container">
+		{{{ body }}}
+	</div>
+    
+</html>
